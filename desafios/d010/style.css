@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+/* cabeçalho */
+header {
+    background-image: linear-gradient(to top, rgb(26, 92, 56), rgb(57, 207, 124));
+    color: white;
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+    margin: -20px -8px 0px -8px;
+}
+
+section#cabecalho > h1, p {
+    text-align: center;
+    padding-top: 30px;
+}
+
+section#cabecalho > h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+nav {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    margin-right: 30px;
+    font: normal bold 1em Arial, Helvetica, sans-serif;
+}
+
+nav > a:hover {
+    background-color: rgba(57, 207, 124, 0.493);
+}
+
+/* Corpo */
+
+body {
+    background-color: rgb(132, 225, 173);
+}
+
+@font-face {
+    font-family: "android";
+    src: url('fontes/idroid.otf') format(opentype);
+}
+
+.idroid {
+    font-family: "android";
+    color: rgb(23, 90, 54);
+    background-image: linear-gradient(to right, rgb(132, 225, 173), rgb(255, 255, 255));
+}
+
+span {
+    color: rgb(75, 165, 114);
+}
+
+span > a {
+    color: rgb(75, 165, 114);
+    text-decoration: none;
+}
+
+section#historia {
+    background-color: white;
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+section#historia > p {
+    text-align: justify;
+    margin-top: -20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-top: -20px;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+/* Video */
+section#video {
+    background-color: rgb(26, 92, 56);
+    height: 400px;
+}
+
+iframe {
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
+
+/* final */
+section#aprenda {
+    background-color: rgb(47, 168, 102);
+    border-radius: 2px;
+}
+
+section#aprenda > article {
+    background-color: rgb(197, 235, 214);
+    border-radius: 2px;
+    
+}
+
+section#aprenda > h3 {
+    color: white;
+}
+
+span#sublinhar {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* footer */
+footer {
+    color: white;
+    background-color: rgb(26, 92, 56);
+}
+
+
+
+
+
