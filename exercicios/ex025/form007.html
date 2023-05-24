@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
-    <form action="cadastrar.php" method="get" autocomplete="on">
+    <form action="cadastrar.php" method="post" autocomplete="on">
         <p>
             <label for="iest">Estado</label>
             <select name="estado" id="iest">
@@ -27,6 +27,11 @@
             <datalist id="prof-list">
             <option value="ADM">Administração</option>
                     </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Digite sua mensagem aqui!"></textarea>
         </p>
          
         <p>
