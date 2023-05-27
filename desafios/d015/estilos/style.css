@@ -7,3 +7,105 @@
     Lilás #5f2c82
 
 */
+
+:root {
+    --cor0: #49a09d;
+    --cor1: #5f2c82;
+}
+
+/* Versão mobile first */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-color: var(--cor1);
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+    height: 600px;
+    border-radius: 15px;
+
+    background-color: white;
+   
+}
+
+div#imagem {
+    background-image: url('../imagens/metal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+
+div#formulario > h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+div#formulario > p {
+    padding: 10px;
+}
+
+form > div {
+    text-align: center;
+    margin-top: 5px;
+}
+
+form input {
+    height: 30px;
+    width: 230px;
+    border: 1px solid black;
+}
+
+span.material-icons {
+    background-color: var(--cor1);
+    color: white;
+}
+
+div#entrar > input {
+    width: 280px;
+    background-color: var(--cor0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+div#entrar > input:hover {
+    background-color: #347471;
+}
+
+div#recuperar > input {
+    width: 280px;
+    background-color: white;
+    border: 1px solid var(--cor0);
+    color: var(--cor0);
+    font-size: 1.1em;
+}
+
+div#recuperar > input:hover {
+    background-color: #347471;
+    color: white;
+}
+
+
+
