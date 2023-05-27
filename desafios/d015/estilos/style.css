@@ -47,7 +47,7 @@ section {
 div#imagem {
     background: url('../imagens/metal.jpg') top center no-repeat;
     background-size: cover;
-    min-height: 25vh;
+    height: 250px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     
@@ -78,7 +78,7 @@ form input {
 }
 
 form input:focus-within {
-    background-color: rgba(255, 255, 255, 0.904);
+    background-color: rgba(255, 255, 255, 0.952);
 }
 
 div.dados {
