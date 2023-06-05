@@ -7,41 +7,31 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
+
     <title>Login</title>
 </head>
 <body>
     <main>
         <section id="login">
-            <div id="imagem">
+            <div id="img">
+                <!--Aqui iria a img, mas ela vai de bckground-->
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                <div class="campo">
+                    <label for="iemail"><span class="material-icons">person</span></label>
+                    <input type="email" name="email" id="iemail" required placeholder="seu e-mail">
+                </div>
+                <div class="campo">
+                    <label for="isenha"><span class="material-icons">vpn_key</span></label>
+                    <input type="password" name="senha" id="isenha" required placeholder="sua senha" min="8" max="20">
+                </div>
+                <div>
+                    <input id="bnt-entrar" type="submit" value="Entrar"> <br>
+                    <a id="bnt-esqueci" href="#">Esqueci a senha <span class="material-icons">email</span></a>
+                </div>
                 
-                <form action="login.php" method="post">
-
-                    <div class="dados">
-                        <label for="iemail"><span class="material-icons">person</span></label>
-                        <input type="email" name="email" id="iemail" required placeholder="seu e-mail">
-                    </div>
-
-                    <div class="dados">
-                        <label for="isenha"><span class="material-icons">key</span></label>
-                        <input type="password" name="senha" id="isenha" required minlength="8" placeholder="sua senha">
-                    </div>
-
-                    <div id="entrar">
-                        <label for="ientrar"></label>
-                        <input type="submit" value="Entrar">
-                    </div>
-
-
-                    <div id="recuperar">
-                        <label for="irec"></label>
-                        <input type="submit" value="Esqueci a senha ✉">
-                    </div>
-                </form>
-
             </div>
         </section>
     </main>
