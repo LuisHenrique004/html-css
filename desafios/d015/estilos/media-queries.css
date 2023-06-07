@@ -4,3 +4,51 @@
     --cor0: #49a09d;
     --cor1: #5f2c82;
 }
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, var(--cor0), var(--cor1));
+    }
+
+    section#login {
+        width: 600px;
+    }
+
+    div#img {
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: center center;
+        
+    }
+
+    div#formulario {
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, var(--cor0), var(--cor1));
+    }
+
+    section#login {
+        width: 1000px;
+    }
+
+    div#img {
+        float: right;
+        width: 30%;
+        height: 100%;
+        background-position: center center;
+        
+    }
+
+    div#formulario {
+        float: left;
+        width: 70%;
+        height: 100%;
+    }
+}
